@@ -23,7 +23,7 @@ const flutterwaveWebhookRoute = require("./routes/flutterwaveWebhookRoute");
 connectDB();
 
 app.use(cors({
-  origin: "https://flexfitz-mainfrontend.vercel.app/",
+  origin: "https://flexfitz-mainfrontend.vercel.app",
   credentials: true,
   allowedHeaders: ["Content-Type", "Authorization", "auth-token"],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE"]
