@@ -34,7 +34,7 @@ exports.initiatePayment = async (req, res) => {
       tx_ref: `gym-${Date.now()}`,
       amount,
       currency: "NGN",
-      redirect_url: "http://localhost:5173/thanks",
+      redirect_url: "https://flexfitz-mainfrontend.vercel.app//thanks",
 
       customer: {
         email: user.email,
